@@ -1,0 +1,11 @@
+input credentialsInput {
+  username: String!
+  password: String!
+  displayName: String
+}
+
+type anotherUser {
+  username: String!
+  displayName: String
+}
+
