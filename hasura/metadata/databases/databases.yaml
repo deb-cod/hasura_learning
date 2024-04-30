@@ -2,7 +2,7 @@
   kind: postgres
   configuration:
     connection_info:
-      database_url: postgres://postgres:postgrespassword@postgres:5432/postgres
+      database_url: postgres://ufftqrpr:etHy_VjPFdq_A7uo2Xh_-t9Da4vH_QRS@cornelius.db.elephantsql.com/ufftqrpr
       isolation_level: read-committed
       use_prepared_statements: false
   tables: "!include db1/tables/tables.yaml"
