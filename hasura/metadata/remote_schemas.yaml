@@ -1,0 +1,6 @@
+- name: test_schema
+  definition:
+    url: http://host.docker.internal:7410/graphql
+    timeout_seconds: 60
+    customization: {}
+  comment: ""
