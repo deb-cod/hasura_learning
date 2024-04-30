@@ -1,4 +1,3 @@
 - "!include public_car.yaml"
 - "!include public_migrate_table.yaml"
-- "!include public_test.yaml"
 - "!include public_user_data.yaml"
