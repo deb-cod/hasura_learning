@@ -1,0 +1,11 @@
+table:
+  name: user_data
+  schema: public
+array_relationships:
+  - name: cars
+    using:
+      foreign_key_constraint_on:
+        column: user_id
+        table:
+          name: car
+          schema: public
